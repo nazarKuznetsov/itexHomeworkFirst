@@ -1,8 +1,8 @@
-.deffaultList {
+.headerList {
     list-style: none;
     padding: 0;
     }
-    .deffaultList li {
+    .headerList li {
     font-family: "Trebuchet MS", "Lucida Sans";
     padding: 7px 20px;
     margin-bottom: 10px;
@@ -12,13 +12,22 @@
     letter-spacing: 2px;
     transition: 0.3s all linear;
     }
-    .deffaultList li:nth-child(1){border-color: #1ccfc9;}
-    .deffaultList li:nth-child(2){border-color: #8bc63e;}
-    .deffaultList li:nth-child(3){border-color: #fcba30;}
-    .deffaultList li:nth-child(4){border-color: #5be474e3;}
-    .deffaultList li:nth-child(5){border-color: #a647ee;}
+    .headerList li:nth-child(1){border-color: #1ccfc9;}
+    .headerList li:nth-child(2){border-color: #8bc63e;}
+    .headerList li:nth-child(3){border-color: #fcba30;}
+    .headerList li:nth-child(4){border-color: #5be474e3;}
+    .headerList li:nth-child(5){border-color: #a647ee;}
+   
 
 h1 {
     text-align: center;
     background-color: #1ccf671c;
 } 
+
+ul {
+    list-style: none;
+}
+
+li + ul {
+    list-style-type: square;
+}
